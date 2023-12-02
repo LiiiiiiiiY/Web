@@ -6,10 +6,16 @@
     <title>index</title>
 </head>
 <body>
-    <p>这就是一个<b>站外资源</b>的图片，地址类型时绝对地址</p>
-    <img src="https://uploadfiles.nowcoder.com/files/20220114/805539847_1642128416415/offerbanner316_200.png" alt="图片加载失败" width="300px">
+    <p>第一个<b>站外资源</b>的图片，地址类型时绝对地址。第二个<b>站内资源</b>的图片，地址类型时绝对地址</p>
+    <img src="https://uploadfiles.nowcoder.com/files/20220114/805539847_1642128416415/offerbanner316_200.png" height="250">
+    <img src="./img/1.png" alt="图片加载失败" height="250">
 
-    <p>这就是一个<b>站内资源</b>的图片，地址类型时绝对地址</p>
-    <img src="./img/1.jpg" alt="图片加载失败" width="300px">
+    <p>这是太阳系的图片</p>
+    <a href="https://baike.baidu.com/item/%E5%A4%AA%E9%98%B3/24010">
+        <img usemap="#Earth" src="./img/3.jpg" alt="图片加载失败" width="1200">
+    </a>
+    <map name="Earth">
+        <area shape="circle" coords="622,983,72" href="https://baike.baidu.com/item/%E5%9C%B0%E7%90%83/6431" target="_blank">
+    </map>
 </body>
 </html>
