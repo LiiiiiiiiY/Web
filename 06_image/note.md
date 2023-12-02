@@ -20,7 +20,11 @@ image的缩写，空元素
     - map坐标的标准：图片左上角为坐标原点
     ```html
     <map>
-    <area shape="形状选择" coords="坐标" href="跳转地址" alt="图片加载失败时显示内容" target="当前窗口(默认)和新建窗口(_black)选择">
+    <area shape="形状选择" 
+          coords="坐标" 
+          href="跳转地址" 
+          alt="图片加载失败时显示内容" 
+          target="当前窗口(默认)和新建窗口(_black)选择">
     </map>
     ```
 
