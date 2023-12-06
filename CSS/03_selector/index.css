@@ -1,0 +1,32 @@
+[href$="www.sina.com"]{
+    color:red;
+}
+
+p{
+    text-align: center;
+    font-size: 2em;
+}
+
+p.hover:hover{
+    color:chartreuse;
+}
+
+.TC::before{
+    content:"《"
+}
+
+.TC::after{
+    content:"》"
+}
+
+#baidu{
+    color:blue;
+}
+
+h1{
+    color:chocolate
+}
+
+.app ul{
+    color:rgb(3, 97, 64)
+}
