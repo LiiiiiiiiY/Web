@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
     <style>
-        #ContentBox{
+        #table01,#table01 tr th,#table01 tr td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        #ContentBox {
             width: 236px;
             height: 51px;
-            color:white;
+            color: white;
             background-color: #2d2e36;
             line-height: 51px;
             padding-left: 46px;
         }
 
-        #BorderBox{
+        #BorderBox {
             width: 236px;
             height: 51px;
-            color:white;
+            color: white;
             background-color: hsl(233, 9%, 19%);
             line-height: 51px;
             padding-left: 46px;
@@ -25,28 +31,42 @@
         }
     </style>
 </head>
+
 <body>
-    <table>
+    <table id="table01">
         <thead>
-            <tr>
-                <th><p>默认状态</p></th>
-                <th><p>box-sizing: border-box</p></th>
+            <tr style="text-align: left;">
+                <th>
+                    <h2>默认状态(box-sizing: content-box)</h2>
+                </th>
+                <th>
+                    <h2>box-sizing: border-box</h2>
+                </th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td><p>这是默认状态，相当于box-sizing: content-box</p></td>
-                <td><p>这是将盒模型的尺寸设置为border之后的样式</p></td>
+                <td>
+                    <p>这是默认状态，相当于box-sizing: content-box</p>
+                </td>
+                <td>
+                    <p>这是将盒模型的尺寸设置为border之后的样式</p>
+                </td>
             </tr>
             <tr>
-                <td><div id="ContentBox">游戏中心</div></td>
-                <td><div id="BorderBox">游戏中心</div></td>
+                <td>
+                    <div id="ContentBox">游戏中心</div>
+                </td>
+                <td>
+                    <div id="BorderBox">游戏中心</div>
+                </td>
             </tr>
             <tr>
                 <td><img src="./img/contentBox.png"></td>
                 <td><img src="./img/borderBox.png"></td>
             </tr>
         </tbody>
-    </table>   
+    </table>
 </body>
+
 </html>
