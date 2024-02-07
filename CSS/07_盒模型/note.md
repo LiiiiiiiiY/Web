@@ -11,7 +11,7 @@ box：盒子，每个元素在页面中都会生成一个矩形区域（盒子�
 - **行盒：** `span` 、`a` 、`img` 、`video` 、`audio` 等
 
 无论是行盒还是块盒，都由以下内容组成，**从内到外**分别是：
-|名称|属性(属性值)|以快递为例|
+|名称|属性(属性值)|以快递的手机为例|
 |:--:|:--:|:--:|
 |内容|`content` `width` `height`|手机|
 |填充|`padding:top right bottom left`<br>`padding-left` `padding-right`<br>`padding-bottom` `padding-top`|包裹手机的泡沫|
